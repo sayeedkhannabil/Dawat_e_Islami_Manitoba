@@ -1,0 +1,684 @@
+body{
+  direction:rtl;
+}
+.container {
+  padding: 0 30px;
+  text-align:right;
+}
+/*=== Column Gap ===*/
+.mrg {margin: 0;
+    text-align: right;
+}
+.slick-slider:not(.feat-caro) ul.slick-dots {
+  padding-right: 0;
+}
+.social-links > a:not(:first-child) {
+    margin-right: 1.25rem;
+    margin-left: 0;
+}
+
+.topbar-info-list > li:not(:first-child) {
+    padding-right: 1.5625rem;
+    margin-right: 1.5625rem;
+}
+
+.topbar-info-list > li:not(:first-child):before {
+  right: 0;
+}
+
+.topbar-info-list > li i {
+  margin-left: 8px;
+}
+nav > div > ul > li {
+    margin-left: 2.5rem;
+    margin-right: 0;
+}
+
+nav ul li.menu-item-has-children > a::before {
+  transform: rotateY(180deg);
+}
+nav ul li.menu-item-has-children > a {padding-left: 1.375rem;}
+nav ul ul {
+  right: 0;
+}
+nav ul ul ul {
+  -webkit-transform-origin: right;
+  -ms-transform-origin: right;
+  -o-transform-origin: right;
+  transform-origin: right;
+}
+nav ul ul ul {
+  right: 100%;
+  top: 0;
+}
+nav ul ul li.menu-item-has-children > a:before {
+  left: 1.25rem;
+}
+nav ul li.menu-item-has-children:hover > ul {
+    text-align: right;
+    padding-right: 0;
+}
+header.style1 .topbar {padding-right: 26.5625rem; padding-left:0px;}
+header.style1 .topbar ul + .social-links {margin-right: 2.5rem;}
+header.style2 .topbar {padding: 0 0 0 5rem;}
+.topbar-right .topbar-info-list + .social-links {
+    margin-right: 3.125rem;
+    margin-left: 0;
+    padding-top: 15px;
+}
+header.style3 .topbar-left {
+    right: 4.400rem !important;
+    left: auto;
+}
+.sticky-menu nav > div > ul > li {
+    line-height: 5rem;
+    margin-left: 2rem;
+    margin-right: 0;
+}
+.sticky-menu nav > div > ul > li:last-child {margin-left: 0;}
+.rspn-srch > input {
+  padding: 0 5% 0 3.125rem;
+}
+.rspn-srch > button {
+    left: 10px;
+    right: auto;
+}
+.rspn-mnu-btn {
+    left: 1.25rem;
+    right: auto;
+}
+.rspn-mnu-cls {
+  left: .75rem;
+}
+.rsnp-mnu > ul {
+  text-align: right;
+}
+.rsnp-mnu > ul li.menu-item-has-children > a::before {
+    left: 0;
+    right: auto;
+}
+.plyr .player .controls > div:not(:first-child) {margin-right: 5px;}
+.cont-info {padding-right: 0; padding-left:0;}
+.cont-info-list > li span {
+  margin: 0 10px 0 1.5625rem;
+}
+.sec-title.left-icon .sec-title-inner {
+  padding-right: 4.375rem;
+}
+.sec-title.left-icon .sec-title-inner > i {
+  right: 0;
+}
+.prod-caro .slick-list {margin: -2.8125rem; }
+.prod-caro > button.slick-arrow {
+  transform: rotateY(180deg);
+}
+.prod-info {
+  direction: rtl;
+  text-align:right;
+}
+.prod-detail-img .price {
+  left: 0;
+}
+.rate + i {margin-right: .9375rem;}
+.mrg10 .serv-box {margin-bottom: 10px; }
+.time-box > span i {
+  margin-left: 13px;
+}
+.course-box > i + .course-inner {
+  padding-right: 1.125rem;
+}
+.event-info {
+ text-align: right;
+}
+span.event-loc i {
+  margin-left: 8px;
+}
+span.event-price i {
+  margin-right: 8px;
+}
+.camp-img > a {
+  left: 1.875rem;
+}
+.post-info {text-align:right;}
+.post-info > a {
+  left: 0;
+}
+.post-meta > li i {
+  margin-left: 8px;
+}
+.widget ul:not(.cont-info-list2) li a:before {
+  transform: rotateY(180deg);
+}
+
+.widget ul:not(.cont-info-list2) li a:before {
+  transform: rotateY(180deg);
+}
+.widget ul:not(.cont-info-list2) li {
+    padding-right: 1.5625rem;
+    padding-left: 0;
+}
+
+.time-title {padding: 1rem 0;    text-align: right;}
+.time-list2 > li {
+  text-align:right;
+}
+.feat-wrap.v2 .feat-caro {max-height: 42.1875rem; direction:ltr;}
+.feat-item.v2 {
+  direction: ltr;
+}
+.feat-cap.left-icon {
+    text-align: right;
+}
+.feat-cap.left-icon > i {
+  right: 0;
+}
+.quote-box::after {
+  right: 3.125rem;
+}
+.event-wrap2 > a i {margin-right: 10px; transform: rotateY(180deg);}
+.event-caro > button.slick-arrow {
+    left: 0;
+    right: auto;
+}
+.event-caro > button.slick-next {left: 3.5rem;}
+.event-img2 + .event-info2 {
+  padding-right: 1.875rem;
+}
+.sermon-btns > a:not(:first-child) {margin-right: 6px;}
+
+.pack-body ul li {
+  padding-right: 1.875rem;
+}
+.pack-body ul li:before {
+  right: 0;
+}
+.urgent-donat-info {padding: 1.75rem 3.125rem; 1.875rem 11.875rem}
+.urgent-donat-meta > li:not(:first-child) {margin-right: 1.875rem;}
+.urgent-donat-meta > li i {
+  margin-left: 8px;
+}
+.urgent-donat-info-raised {
+  left: 0;
+  right:auto;
+}
+.fact-box > span + .fact-inner {
+    padding-right: 1.5625rem;
+    padding-left: 0;
+}
+.post-img2 {
+    left: 0;
+    right: auto;
+}
+.post-info2 {
+  padding: 3.125rem 8.75rem 2.95rem 2.8125rem;
+}
+.post-info2-inner {
+  right: 0;
+}
+.post-meta2 > li img {margin-left: 9px;}
+.post-meta2 > li:not(:first-child) {margin-right: 1.75rem;}
+.post-share {
+  margin-right: 7px;
+}
+.thm-bg .bottom-bar2 > p {color: #fff; text-align:center;}
+.about-wrap3 {padding: 0;}
+.learn-top-inner > h3 {
+  padding: 5px 4.25rem 5px 0;
+}
+.learn-top-inner > h3 i {
+  right: 0;
+}
+.learn-post-info > a i {
+    margin-right: 10px;
+    transform: rotateY(180deg);
+    margin-left: 0;
+}
+.learn-post-img + .learn-post-info {
+  padding-right: 1.25rem;
+}
+.sec-title.v2.left-icon .sec-title-inner {padding-right: 7.1875rem;}
+.pillar-box2 > span {
+  right: 0;
+}
+.course-wrap3 {padding: 0;}
+.course-box3 > span i {
+  margin-left: 3px;
+}
+.course-scholar > img + .course-scholar-inner {padding-right: .9375rem;}
+.donate-box-wrap {
+    padding-right: 5.625rem;
+    padding-left: 0;
+}
+.newsletter-form > i {
+  right: 1rem;
+}
+.newsletter-form button {
+  left: -2px;
+}
+.newsletter-form > i:after {
+  left: 0;
+}
+.bottom-links > li:not(:first-child):before {
+  right: 0;
+}
+.experties-list > li a {
+  padding-right: 1.5625rem;
+  display: block;
+}
+.experties-list > li a:before {
+    right: 0;
+    transform: rotateY(180deg);
+    left: auto;
+}
+.sermons-btns2 > a i {
+  margin-left: .9375rem;
+}
+
+.sermon-info-list > li,
+.services-info-list > li {
+  padding-right: 2.1875rem;
+}
+
+.sermon-info-list > li:before,
+.services-info-list > li:before {
+  right: 8px;
+}
+.sermons-btns2 > a + a {
+    margin-right: 1.875rem;
+    margin-left: 0;
+}
+.services-detail-info > span + ul:before {
+  right: 0;
+}
+.prod-detail-info {padding: 0 4rem 0 2rem;}
+.prod-detail-btns .thm-btn + .prod-btn {margin-right: 2.1875rem;}
+.prod-btn + .prod-btn {margin-right: 10px;}
+.prod-detail-tabs {padding-right: 5rem;}
+.prod-detail-tabs ul.nav-tabs {
+  right: 0;
+}
+.prod-detail-tabs .tab-content {
+  padding: 5.3125rem 17.1875rem 5rem 3.75rem;
+}
+.prod-detail-tabs ul.nav-tabs li.nav-item a.nav-link:before {
+  left: 0;
+}
+.prod-detail-tabs ul.nav-tabs li.nav-item a.nav-link.active::before {
+  left: -1.875rem;
+  opacity: 1;
+}
+.prod-detail-tabs .tab-content .tab-pane > h3 {
+  padding-right: 3.75rem;
+}
+.prod-detail-tabs .tab-content .tab-pane > h3 i {
+  right: 0;
+}
+.adt-info-list > li {
+  padding-right: 1.5625rem;
+}
+.adt-info-list > li:before {
+  right: 0;
+}
+.cart-total-list > li span {
+    width: 45%;
+    float: left;
+    padding-right: 7px;
+}
+
+[type="radio"]:not(:checked) + label,
+[type="radio"]:checked + label {
+  position: relative;
+  padding-right: 1.75rem;
+  cursor: pointer;
+}
+/* radio aspect */
+[type="radio"]:not(:checked) + label::before, 
+[type="radio"]:checked + label::before {
+  border: 4px solid rgba(255,255,255,.25);
+  content: "";
+  height: 1.0625rem;
+  right: 0;
+  position: absolute;
+  top: 7px;
+  width: 1.0625rem;
+}
+.post-detail-info {padding-right: 8.75rem;}
+.alignleft {
+  float: right;
+  margin-left: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+.share-tags-wrap > div > span {
+  margin-left: 10px;
+}
+.comment-detail > h4 + small {margin-right: 10px;}
+.author-social > span + .author-social-inner {margin-right: 1.875rem;}
+.author-social-inner > a + a {margin-right: .9375rem;}
+ul.comments-list.mb-0.list-unstyled.w-100 {
+    padding: 0 0 0 15px;
+}
+.comment-detail > a i {
+  margin-right: 10px;
+  font-size: .9375rem;
+  transform: rotateY(180deg);
+}
+.mini-post-box > a + .mini-post-info {
+  padding-right: 1rem;
+}
+.widget2 ul:not(.insta-list) li a {
+  padding-right: 12px;
+}
+.widget2 ul.cate-list li a {
+  float: right;
+}
+.widget2 ul:not(.insta-list) li a::before {
+    right: 0;
+    transform: rotateY(180deg);
+    left: auto;
+    color: #ccc;
+}
+.styled-list > li {
+  padding-right: 1.6875rem;
+}
+.styled-list > li:before {
+  right: 0;
+}
+.event-detail-info-inner span:not(.price) i {margin-left: 8px;}
+.event-detail-price-button-inner > span.price small {
+  margin-right: 12px;
+}
+.text-center {
+    direction: ltr;
+}
+.logo-menu-wrap {
+    padding-right: inherit;
+}
+
+.hlf-bg.thm-layer.opc6.pat-bg.back-blend-multiply.thm-bg.position-absolute {
+    right: 0;
+}
+
+element.style {
+}
+.pagination-wrap.d-flex.flex-wrap.justify-content-center.text-center.w-100,.pagination-wrap.mt-20.d-flex.flex-wrap.justify-content-center.text-center.w-100 {
+    direction: rtl;
+}
+.pagination-wrap.mt-40.d-flex.flex-wrap.justify-content-center.text-center.w-100 {
+    direction: rtl;
+}
+.ragm{
+
+	float:left;
+}
+.fa, .fas {
+    font-weight: 900;
+    transform: rotateY(180deg);
+}
+.dawran{
+	transform: rotateY(180deg);
+}
+.prod-detail-tabs ul.nav-tabs li.nav-item a.nav-link::before
+{
+	border-right-color: var(--theme-color);
+}
+ul.cart-total-list.mb-0.list-unstyled.w-100 {
+    width: 110%!important;
+}
+
+
+element.style {
+}
+.col-md-12.col-sm-12.col-lg-5.order-lg-1 {
+    padding: 0;
+}
+.col-md-12.col-sm-12.col-lg-7 {
+    padding: 0;
+}
+ul.nav.nav-tabs {
+    padding-right: 0;
+}
+.widget ul:not(.cont-info-list2) li a:before {
+    right: 0;
+	left:auto;
+}
+
+.plyr .player .controls {
+    padding-right: 1.125rem;
+	padding-left:0;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list { direction: ltr; }
+.prod-info .price, .prod-detail-img .price {
+    left: 0;
+    right:auto;
+}
+.prod-info {
+    padding: 4.6875rem 4.1875rem 4.6875rem 5.6875rem;
+}
+.prod-caro > button.slick-next {
+    left: 50%;
+    right: auto;
+}
+.prod-caro > button.slick-prev {
+    left: 57%;
+    right: auto;
+}
+.qty-wrap + a {
+    margin-top: 1rem;
+}
+ul.time-list {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0;
+}
+.post-meta > li:not(:first-child) {
+    padding-right: 1.8125rem;
+	padding-left:0;
+}
+.post-info > h3 + ul {
+    padding:0;
+}
+.post-info {
+    padding: 1.9rem 1rem 0 0;
+}
+.post-info > a {
+    left: 1.875rem;
+    right: auto;
+}
+footer .widget ul {
+    padding-right: 0;
+}
+.widget ul:not(.cont-info-list2) li {
+    padding-right: 1.2rem;
+    padding-left: 0;
+}
+.time-wrap2 {
+    padding-right: 5rem;
+    padding-left: 0;
+}
+.feat-wrap ul.slick-dots {
+    left: 5.625rem;
+}
+.feat-cap.left-icon {
+    padding-right: 12.5rem;
+	padding-left:0;
+}
+.sermon-info > span {
+    -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    left: auto;
+    right: 0;
+	padding: 1.125rem 1.4375rem 1.125rem 3.75rem;
+}
+
+.pack-body.w-100 ul {
+   padding:0;
+}
+.pack-body ul li {
+    padding-right: 1.875rem;
+    padding-left: 0;
+}
+.urgent-donat-info > h3 + .urgent-donat-meta {
+    padding-right: 0;
+}
+ul.post-meta2 {
+    padding-right: 0;
+}
+.topbar .social-links {
+    padding: 10px 1.5625rem;
+}
+.style3 .header-left ul {
+    padding-right: 0;
+}
+.logo-menu-wrap.v3 .logo + .container {
+    margin-right: 2.5rem;
+    margin-left: 0;
+}
+
+.feat-item.v3.position-relative.d-flex.flex-wrap.justify-content-end {
+    justify-content: start !important;
+}
+.feat-wrap.v3  .feat-cap-wrap {
+    top: 50%;
+    right: -50%;
+    left: auto;
+}
+.feat-wrap.v3 .slick-slider:not(.feat-caro) ul.slick-dots {
+    right: 25rem;
+    left: auto;
+}
+.time-list3 > li {
+    padding: 2.8rem 1.875rem;
+}
+.learn-top-inner > a i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.pillar-box2 {
+    padding: .9375rem 5.875rem .9375rem 0;
+    margin-top: 2.5rem;
+}
+.pillars-list2 {
+    padding-right: 15px;
+}
+.get-started-inner form input {
+    text-align: right;
+}
+.newsletter-form button {
+    left: -2px;
+    right: auto;
+}
+.social-links3 > a i {
+    float: left;
+}
+.social-links3 > a:not(:first-child) {
+    margin-left: 0;
+    margin-right: 2.7rem;
+}
+.post-detail-info > h2 {
+    max-width: 100%;
+}
+.share-tags-wrap > div + div {
+    margin-right: 4.0625rem;
+    margin-left: 0;
+    float: left;
+    text-align: left;
+}
+.author-info > h4 + small, .comment-detail > h4 + small {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.single ul.comments-list.mb-0.list-unstyled.w-100, ul.comments-list.mb-0.list-unstyled.w-100 {
+    padding: 0 0 0 15px;
+}
+.insta-wrap.w-100 ul {
+    padding-right: 0;
+}
+.widget2 h3 + ul {
+    margin-top: -5px;
+    padding-right: 0;
+}
+.payment-method > h4 + ul {
+    margin-top: 1.25rem;
+    padding-right: 0;
+}
+ul.comments-list ul.children {
+    padding-right: 5rem;
+    padding-left: 0;
+}
+.event-detail-info-inner > h4 + ul {
+    padding-right: 0;
+}
+.event-detail-info-inner > ul li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.event-booking-form-wrap > h3 + ul {
+    padding-right: 0;
+}
+.event-booking-form span input {
+    margin-left: .9375rem;
+    margin-right: 0;
+}
+.post-detail-info {
+    padding-right: 8.75rem;
+    padding-left: 0;
+}
+.post-detail-info ul:not(.post-meta2) {
+    padding-right: 0;
+}
+.prod-detail-btns .thm-btn + .prod-btn {
+    margin-right: 2.1875rem;
+    margin-left: 0;
+}
+.prod-detail-tabs ul.nav-tabs li.nav-item a.nav-link:before {
+    right: 0;
+    top: -8px;
+    border-right: 22px solid #0a993c;
+	border-left:0;
+}
+.prod-detail-tabs ul.nav-tabs li.nav-item a.nav-link.active::before {
+    right: auto;
+    opacity: 1;
+    left: -30px;
+}
+.tab-pane .author-img + .author-info, .tab-pane .comment-img + .comment-detail {
+    padding-right: 2.8125rem;
+    padding-left: 0;
+}
+.prod-detail-tabs .comment-detail span.rate {
+    float: right;
+    display: block;
+    width: 100%;
+}
+.prod-detail-tabs ul.comments-list ul.children {
+    padding-right: 3rem;
+    padding-left: 0;
+}
+ul.team-detail-info-list.mb-0.list-unstyled {
+    padding-right: 0;
+}
+.sermon-detail-info .post-meta2 > li i, .sermon-detail-info .post-meta2 > li img {
+    margin-left: 9px;
+    margin-right: 0;
+}
+.sermon-detail-info .post-meta2 > li:not(:first-child) {
+    margin-right: 1.75rem;
+    margin-left: 0;
+}
+.sermon-detail-info > h3 + .sermon-info-list {
+    padding-right: 0;
+}
+.services-detail-info > span + ul {
+    padding-right: 0;
+}
+.lg-mn {
+    padding: 1.125rem .9375rem 1.125rem .9375rem;
+}
+.rsnp-mnu > ul ul {
+    padding-right: 1.25rem;
+}
+.style3 .v3 nav > div > ul > li {
+    margin-left: 1.2rem;
+    margin-right: 0;
+}
