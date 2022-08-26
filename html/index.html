@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="assets/css/color.css">
+        <link rel="stylesheet" href="assets/css/audiostyle.css">
     </head>
     <body>
         <main>
@@ -39,8 +40,8 @@
                         <div class="topbar-inner d-flex flex-wrap justify-content-end">
                             <div class="topbar-right d-inline-flex">
                                 <ul class="topbar-info-list mb-0 list-unstyled d-inline-flex">
-                                    <li><i class="thm-clr flaticon-sun"></i>Sunrise At: <span class="thm-clr">5:05am</span></li>
-                                    <li><i class="thm-clr flaticon-moon"></i>Sunset At: <span class="thm-clr">7:14pm</span></li>
+                                    <li><i class="thm-clr flaticon-sun"></i>Sunrise At: <span class="thm-clr"><span id="sunrise"></span></span></li>
+                                    <li><i class="thm-clr flaticon-moon"></i>Sunset At: <span class="thm-clr"><span id="sunset"></span></span></li>
                                 </ul>
                                 <div class="social-links d-inline-flex">
                                     <a href="https://twitter.com/" title="Twtiiter" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -136,7 +137,7 @@
                                 </ul>
                             </div>
                             <div class="header-right">
-                                <a class="thm-btn thm-bg" href="donation-detail.html" title="">Make Donation<span></span><span></span><span></span><span></span></a>
+                                <a class="thm-btn thm-bg" href="https://services.madinaapps.com/donation/clients/Dawat-e-Islami-Canada/paymentOptions/1768" title="">Make Donation<span></span><span></span><span></span><span></span></a>
                             </div>
                         </nav>
                     </div>
@@ -374,12 +375,12 @@
                                 </div>
                             </div><!-- Sec Title -->
                             <ul class="time-list3 d-flex flex-wrap mb-0 list-unstyled">
-                                <li class="pat-bg thm-layer opc7 back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Fajr:</span> 04:06 AM<i>Iqamah: 4:00 AM</i></li>
-                                <li class="pat-bg grn-layer2 opc7 back-blend-multiply bg-color2" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Sunrise:</span> 05:30 AM<i>Iqamah: 4:00 AM</i></li>
-                                <li class="pat-bg thm-layer opc7 back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Dhuhr:</span> 12:23 PM<i>Iqamah: 4:00 AM</i></li>
-                                <li class="pat-bg grn-layer2 opc7 back-blend-multiply bg-color2" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Asr:</span> 03:43 PM<i>Iqamah: 4:00 AM</i></li>
-                                <li class="pat-bg thm-layer opc7 back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Maghrib:</span> 07:10 PM<i>Iqamah: 4:00 AM</i></li>
-                                <li class="pat-bg grn-layer2 opc7 back-blend-multiply bg-color2" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Isha'a:</span> 08:35 PM<i>Iqamah: 4:00 AM</i></li>
+                                <li class="pat-bg thm-layer opc7 back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Fajr:</span> <span id="fajr" style="font-size: 120%"></span><i>Iqamah: 4:00 AM</i></li>
+                                <li class="pat-bg grn-layer2 opc7 back-blend-multiply bg-color2" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Sunrise:</span> <span id="sunrise2" style="font-size: 120%"></span><i>Iqamah: 4:00 AM</i></li>
+                                <li class="pat-bg thm-layer opc7 back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Dhuhr:</span> <span id="dhuhr" style="font-size: 120%"></span><i>Iqamah: 4:00 AM</i></li>
+                                <li class="pat-bg grn-layer2 opc7 back-blend-multiply bg-color2" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Asr:</span> <span id="asr" style="font-size: 120%"></span><i>Iqamah: 4:00 AM</i></li>
+                                <li class="pat-bg thm-layer opc7 back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Maghrib:</span> <span id="maghrib" style="font-size: 120%"></span><i>Iqamah: 4:00 AM</i></li>
+                                <li class="pat-bg grn-layer2 opc7 back-blend-multiply bg-color2" style="background-image: url(assets/images/pattern-bg.jpg);"><span>Isha'a:</span> <span id="isha" style="font-size: 120%"></span><i>Iqamah: 4:00 AM</i></li>
                             </ul>
                         </div><!-- Time Wrap -->
                     </div>
@@ -387,19 +388,38 @@
             </section>
             <section>
                 <div class="w-100 pt-190 pb-120 position-relative">
-                    <div class="fixed-bg" style="background-image: url(assets/images/parallax-bg5.jpg);"></div>
+                    <div class="fixed-bg" ></div>
                     <img class="img-fluid sec-top-mckp position-absolute" src="assets/images/sec-top-mckp5.png" alt="Sec Top Mockup 5">
                     <div class="container">
                     	<div class="about-wrap3 w-100">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 col-lg-5 order-lg-1">
                                     <div class="plyr-wrp v3 w-100">
-                                        <h3 class="mb-0 text-center pat-bg dark-layer2 opc5 back-blend-multiply bg-color1" style="background-image: url(assets/images/pattern-bg.jpg);">Listen to Quran Audio</h3>
+                                        <h3 class="mb-0 text-center pat-bg dark-layer2 opc5 back-blend-multiply bg-color1" style="background-image: url(assets/images/pattern-bg.jpg);">Listen to Quran</h3>
                                         <div class="plyr-inner w-100 pat-bg thm-layer opc65 back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);">
                                             <div class="plyr v3 w-100">
-                                                <ul class="playlist mb-0 list-unstyled">
-                                                    <li data-cover="assets/images/audio-cover.jpg" data-artist="(Abd-ur Rahman)"><a href="assets/audio/surah-fateh.mp3" title="">Surah Fath</a></li>
-                                                </ul>
+                                                <!--<ul class="playlist mb-0 list-unstyled">
+                                                    <li> <a href="assets/audio/surah-baqarah.mp3" title="">Surah Fath</a>
+                                                    </li>
+                                                    
+                                                -->
+                                                
+                                                <iframe width="300" height="250" src="https://www.youtube.com/embed/N-6WlsGch-k" title="The Complete Holy Quran Sooting Recitation deep sleep Stress Relief Hours Full Quran In 11 Hours" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                
+                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -1109,8 +1129,15 @@
                     </div>
                 </div>
             </div><!-- Bottom Bar -->
+
+
+
+
+
         </main><!-- Main Wrapper -->
 
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="assets/js/salatTimings.js"></script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
@@ -1125,5 +1152,6 @@
         <script src="assets/js/circle-progress.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script src="assets/js/custom-scripts.js"></script>
+        <script src="assets/js/audiojs.js"></script>
     </body>	
 </html>
