@@ -111,7 +111,10 @@ strong {font-weight: 600;}
 
 /*=== General Styling ===*/
 body, 
-html {overflow-x: hidden;}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: Noto Serif;
